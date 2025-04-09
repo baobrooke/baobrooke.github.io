@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a post on the lab's spring 2025 updates
+title: a post on the lab's summer 2025 updates
 date: 2025-04-09 16:40:16
 description: march & april, looking forward to summer
 tags: updates summer25

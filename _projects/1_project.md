@@ -9,6 +9,16 @@ related_publications: true
 ---
 
 How technology can improve student experience with Wellesley Dining, Wellesley Fresh...bla bla bla
+<ul class="post-list">
+  {% assign tag_posts = site.posts | where_exp: "post", "post.tags contains 'wellesleyfresh'" %}
+  {% for post in tag_posts %}
+    <li>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p>{{ post.description }}</p>
+      <p><small>{{ post.date | date: "%B %d, %Y" }} – {{ post.tags | join: ", " }}</small></p>
+    </li>
+  {% endfor %}
+</ul>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}

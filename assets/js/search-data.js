@@ -65,7 +65,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-a-post-on-the-lab-39-s-spring-2025-updates",
+        
+          title: "a post on the lab&#39;s spring 2025 updates",
+        
+        description: "march &amp; april, looking forward to summer",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/spring-2025-updates/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -446,7 +457,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-wellesley-fresh-er",
           title: 'Wellesley Fresh-er',
-          description: "with background image",
+          description: "Isabelle Whetsel, Katie Emerson",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",

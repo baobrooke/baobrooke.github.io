@@ -451,8 +451,8 @@ ninja.data = [{
           section: "News",},{id: "news-cs-299-class-to-present-at-ruhlman-4-26-2025",
           title: 'CS 299 Class to present at Ruhlman 4/26/2025.',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
+          section: "News",},{id: "projects-wellesley-fresh-er",
+          title: 'Wellesley Fresh-er',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";

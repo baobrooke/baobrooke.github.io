@@ -14,7 +14,8 @@ profiles:
     content: about_enimustafaraj.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>emustafa@wellesley.edu</p>
+      <p><a href="mailto:emustafa@wellesley.edu">emustafa@wellesley.edu</a></p>
+      <p><a href="https://www.wellesley.edu/people/eni-mustafaraj">Website</a></p>
   - align: right
     image: prof_pic.jpg
     content: about_einstein.md

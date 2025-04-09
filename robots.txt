@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://baobrooke.github.io/al-folio/sitemap.xml
+Sitemap: https://baobrooke.github.io/sitemap.xml

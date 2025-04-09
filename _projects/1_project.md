@@ -9,6 +9,7 @@ related_publications: true
 ---
 
 How technology can improve student experience with Wellesley Dining, Wellesley Fresh...bla bla bla
+<h2>Relavent Blog Posts</h2>
 <ul class="post-list">
   {% assign tag_posts = site.posts | where_exp: "post", "post.tags contains 'wellesleyfresh'" %}
   {% for post in tag_posts %}

@@ -56,7 +56,7 @@ ninja.data = [{
           description: "members of the lab or group",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/people1/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -72,7 +72,14 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-on-the-lab-39-s-summer-2025-updates",
+            },{id: "nav-people",
+          title: "people",
+          description: "members of the lab or group",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
+        },{id: "post-a-post-on-the-lab-39-s-summer-2025-updates",
         
           title: "a post on the lab&#39;s summer 2025 updates",
         

@@ -1,6 +1,7 @@
 ---
 layout: about
 title: Home
+heading: Laboratory for Ethics and Equity in Digital Technology
 permalink: /
 subtitle: Professor Eni Mustafaraj, Professor Julie Walsh
 

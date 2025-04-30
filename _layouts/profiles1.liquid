@@ -1,10 +1,13 @@
+---
+layout: page
+---
 <div class="post">
   <article>
 
-    <!-- Professors Section -->
-    {% if page.professors %}
+    <!-- Professors Section (original) -->
+    {% if page.profiles %}
       <h2>Professors</h2>
-      {% for profile in page.professors %}
+      {% for profile in page.profiles %}
         <hr>
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if profile.image %}
@@ -26,35 +29,43 @@
           {% if profile.content %}
             {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
             {{ profile_content | markdownify }}
+          {% else %}
+            {{ content }}
           {% endif %}
         </div>
       {% endfor %}
     {% endif %}
 
-    <!-- Students Section -->
+    <!-- Students Section (new) -->
     {% if page.students %}
       <h2>Students</h2>
       <div class="row">
         {% for student in page.students %}
           <div class="col-6 col-sm-4 col-md-3 mb-4 text-center">
             {% assign image_path = student.image | prepend: 'assets/img/' %}
-            {% assign image_class = student.image_circular == true | default: false
-              | if true then 'img-fluid rounded-circle' else 'img-fluid rounded' %}
+            {% if student.image_circular %}
+              {% assign image_class = 'img-fluid rounded-circle' %}
+            {% else %}
+              {% assign image_class = 'img-fluid rounded' %}
+            {% endif %}
             {% include figure.liquid path=image_path class=image_class loading="lazy" alt="Student image" %}
           </div>
         {% endfor %}
       </div>
     {% endif %}
 
-    <!-- Alumni Section -->
+    <!-- Alumni Section (new) -->
     {% if page.alumni %}
       <h2>Alumni</h2>
       <div class="row">
         {% for alum in page.alumni %}
           <div class="col-6 col-sm-4 col-md-3 mb-4 text-center">
             {% assign image_path = alum.image | prepend: 'assets/img/' %}
-            {% assign image_class = alum.image_circular == true | default: false
-              | if true then 'img-fluid rounded-circle' else 'img-fluid rounded' %}
+            {% if alum.image_circular %}
+              {% assign image_class = 'img-fluid rounded-circle' %}
+            {% else %}
+              {% assign image_class = 'img-fluid rounded' %}
+            {% endif %}
             {% include figure.liquid path=image_path class=image_class loading="lazy" alt="Alumni image" %}
           </div>
         {% endfor %}

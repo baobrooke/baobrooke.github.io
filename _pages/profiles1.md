@@ -18,7 +18,7 @@ professors:
     content: about_enimustafaraj.md
 
 students:
-  - image: prof_pic.jpg
+  - image: student_isabellewhetsel.png
     image_circular: true
   - image: student2.jpg
     image_circular: true

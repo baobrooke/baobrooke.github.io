@@ -51,12 +51,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people1",
-          title: "People1",
-          description: "members of the lab or group",
+        },{id: "nav-people",
+          title: "People",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people1/";
+            window.location.href = "/people/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -72,14 +72,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "post-a-post-on-the-lab-39-s-summer-2025-updates",
+            },{id: "post-a-post-on-the-lab-39-s-summer-2025-updates",
         
           title: "a post on the lab&#39;s summer 2025 updates",
         

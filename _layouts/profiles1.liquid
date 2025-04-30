@@ -42,13 +42,17 @@ layout: page
         {% for student in page.students %}
           <div class="col-6 col-sm-4 col-md-3 mb-4 text-center">
             {% assign image_path = student.image | prepend: 'assets/img/profile_pics/' %}
-            {% assign image_class = student.image_circular == true | default: false
-              | if true then 'img-fluid rounded-circle' else 'img-fluid rounded' %}
+            {% if student.image_circular %}
+              {% assign image_class = 'img-fluid rounded-circle' %}
+            {% else %}
+              {% assign image_class = 'img-fluid rounded' %}
+            {% endif %}
             <img src="{{ image_path | relative_url }}" class="{{ image_class }}" alt="Student image">
           </div>
         {% endfor %}
       </div>
     {% endif %}
+      
 
     <!-- Alumni Section -->
     {% if page.alumni %}
@@ -57,8 +61,11 @@ layout: page
         {% for alum in page.alumni %}
           <div class="col-6 col-sm-4 col-md-3 mb-4 text-center">
             {% assign image_path = alum.image | prepend: 'assets/img/profile_pics/' %}
-            {% assign image_class = alum.image_circular == true | default: false
-              | if true then 'img-fluid rounded-circle' else 'img-fluid rounded' %}
+            {% if alum.image_circular %}
+              {% assign image_class = 'img-fluid rounded-circle' %}
+            {% else %}
+              {% assign image_class = 'img-fluid rounded' %}
+            {% endif %}
             <img src="{{ image_path | relative_url }}" class="{{ image_class }}" alt="Alumni image">
           </div>
         {% endfor %}

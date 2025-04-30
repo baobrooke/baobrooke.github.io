@@ -10,7 +10,7 @@ nav_order: 7
   # and create one content file for each profile inside _pages/
 
 professors:
-  - image: prof_pic.jpg
+  - image: prof_enimustafaraj.jpg
     align: left
     image_circular: true # crops the image to make it circular
     more_info: "Professor of Computer Science"

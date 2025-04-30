@@ -17,6 +17,7 @@ layout: page
             {% else %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
             {% endif %}
+
             <img src="{{ profile_image_path | relative_url }}" alt="Profile picture" class="{{ profile_image_class }}">
           {% endif %}
           {% if profile.more_info %}

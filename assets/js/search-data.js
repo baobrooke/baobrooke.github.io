@@ -52,7 +52,7 @@ ninja.data = [{
             window.location.href = "/teaching/";
           },
         },{id: "nav-people1",
-          title: "people1",
+          title: "People1",
           description: "members of the lab or group",
           section: "Navigation",
           handler: () => {

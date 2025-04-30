@@ -10,14 +10,14 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
+    image: prof_pic_colot.png
     content: about_enimustafaraj.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p><a href="mailto:emustafa@wellesley.edu">emustafa@wellesley.edu</a></p>
       <p><a href="https://www.wellesley.edu/people/eni-mustafaraj">Website</a></p>
   - align: right
-    image: prof_pic.jpg
+    image: prof_pic_colot.png
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >

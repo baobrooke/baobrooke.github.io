@@ -18,14 +18,14 @@ professors:
     content: about_enimustafaraj.md
 
 students:
-  - image: student1.jpg
+  - image: prof_pic.jpg
     image_circular: true
   - image: student2.jpg
     image_circular: true
 
 alumni:
-  - image: alum1.jpg
+  - image: prof_pic.jpg
     image_circular: true
-  - image: alum2.jpg
+  - image: prof_pic.jpg
     image_circular: true
 ---

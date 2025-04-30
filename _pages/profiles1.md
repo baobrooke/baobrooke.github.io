@@ -1,8 +1,8 @@
 ---
-layout: profiles1
-permalink: /people1/
-title: People1
-description: members of the lab or group
+layout: profiles
+permalink: /people/
+title: People
+description: 
 nav: true
 nav_order: 7
 

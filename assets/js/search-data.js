@@ -51,12 +51,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
+        },{id: "dropdown-publications",
+              title: "publications",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/books/";
+                window.location.href = "/publications/";
               },
             },{id: "post-a-post-on-the-lab-39-s-summer-2025-updates",
         

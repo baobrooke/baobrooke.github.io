@@ -1,47 +1,33 @@
 ---
-layout: page
+layout: resources_layout
 permalink: /resources/
 title: Resources
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: Curated recommendations for learning and inspiration
 nav: true
 nav_order: 5
+
+readings:
+  - title: Weapons of Math Destruction
+    url: https://weaponsofmathdestructionbook.com
+    description: How big data increases inequality and threatens democracy
+
+movies:
+  - title: Coded Bias
+    url: https://www.netflix.com/title/81328723
+    description: Documentary on bias in facial recognition
+
+websites:
+  - title: AI Now Institute
+    url: https://ainowinstitute.org
+    description: Research on social implications of AI
+
+newsletters:
+  - title: Import AI
+    url: https://jack-clark.net
+    description: Weekly newsletter by Jack Clark on AI progress
+
+misc:
+  - title: Data Feminism
+    url: https://data-feminism.mitpress.mit.edu
+    description: Intersection of data science and gender justice
 ---
-
-{% if site.data.repositories.github_users %}
-
-## GitHub users
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}

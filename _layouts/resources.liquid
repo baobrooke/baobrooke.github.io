@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {% if page.readings %}
+      <h2>📚 Readings</h2>
+      <ul>
+        {% for item in page.readings %}
+          <li>
+            <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+            {% if item.description %} &mdash; {{ item.description }}{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if page.movies %}
+      <h2>🎬 Movies / Documentaries</h2>
+      <ul>
+        {% for item in page.movies %}
+          <li>
+            <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+            {% if item.description %} &mdash; {{ item.description }}{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if page.websites %}
+      <h2>🌐 Websites</h2>
+      <ul>
+        {% for item in page.websites %}
+          <li>
+            <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+            {% if item.description %} &mdash; {{ item.description }}{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if page.newsletters %}
+      <h2>📰 Newsletters / Substacks</h2>
+      <ul>
+        {% for item in page.newsletters %}
+          <li>
+            <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+            {% if item.description %} &mdash; {{ item.description }}{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if page.misc %}
+      <h2>🧰 Miscellaneous</h2>
+      <ul>
+        {% for item in page.misc %}
+          <li>
+            <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+            {% if item.description %} &mdash; {{ item.description }}{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </article>
+</div>

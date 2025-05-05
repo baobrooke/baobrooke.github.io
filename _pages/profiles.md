@@ -14,7 +14,7 @@ professors:
     align: left
     image_circular: true # crops the image to make it circular
     more_info: "Professor of Computer Science"
-    content: about_enimustafaraj.md
+    content: profiles/about_enimustafaraj.md
 
   - image: prof_juliewalsh.jpg
     align: left

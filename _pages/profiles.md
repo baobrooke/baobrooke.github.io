@@ -20,7 +20,15 @@ professors:
 students:
   - image: student_isabellewhetsel.png
     image_circular: true
-  - image: student2.jpg
+  - image: student_elizabethmurno.png
+    image_circular: true
+  - image: student_jessicachen.jpg
+    image_circular: true
+  - image: student_katieemerson.png
+    image_circular: true
+  - image: student_maggiemu.png
+    image_circular: true
+  - image: student_brookebao.jpg
     image_circular: true
 
 alumni:

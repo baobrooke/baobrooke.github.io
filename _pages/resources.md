@@ -10,6 +10,12 @@ readings:
   - title: Weapons of Math Destruction
     url: https://weaponsofmathdestructionbook.com
     description: How big data increases inequality and threatens democracy
+    isbn: 9780553418811
+
+  - title: The Godfather
+    url: https://www.goodreads.com/book/show/22034.The_Godfather
+    description: The classic mafia novel
+    cover: /assets/img/book_covers/the_godfather.jpg
 
 movies:
   - title: Coded Bias

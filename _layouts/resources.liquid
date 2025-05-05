@@ -19,15 +19,25 @@ layout: default
   <article>
     {% if page.readings %}
       <h2>📚 Readings</h2>
-      <ul>
+      <div class="row">
         {% for item in page.readings %}
-          <li>
-            <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
-            {% if item.description %} &mdash; {{ item.description }}{% endif %}
-          </li>
+          <div class="col-6 col-sm-4 col-md-3 mb-4 text-center">
+            {% if item.cover %}
+              <img src="{{ item.cover | relative_url }}" alt="{{ item.title }} cover" class="img-fluid rounded shadow" style="height:200px">
+            {% elsif item.olid %}
+              <img src="https://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" alt="{{ item.title }} cover" class="img-fluid rounded shadow" style="height:200px">
+            {% elsif item.isbn %}
+              <img src="https://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" alt="{{ item.title }} cover" class="img-fluid rounded shadow" style="height:200px">
+            {% endif %}
+            <p class="mt-2 mb-0"><a href="{{ item.url }}" target="_blank"><strong>{{ item.title }}</strong></a></p>
+            {% if item.description %}
+              <small>{{ item.description }}</small>
+            {% endif %}
+          </div>
         {% endfor %}
-      </ul>
+      </div>
     {% endif %}
+
 
     {% if page.movies %}
       <h2>🎬 Movies / Documentaries</h2>

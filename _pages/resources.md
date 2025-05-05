@@ -1,5 +1,5 @@
 ---
-layout: resources_layout
+layout: resources
 permalink: /resources/
 title: Resources
 description: Curated recommendations for learning and inspiration

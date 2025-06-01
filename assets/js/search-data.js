@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -32,17 +32,17 @@ ninja.data = [{
           },
         },{id: "nav-resources",
           title: "Resources",
-          description: "Curated recommendations for learning and inspiration",
+          description: "Resources to check out if you are interested in the LEED Lab&#39;s work.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/resources/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+        },{id: "nav-courses",
+          title: "Courses",
+          description: "Previous and current classes associated with the professors of LEED Lab",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/courses/";
           },
         },{id: "nav-people",
           title: "People",

@@ -58,18 +58,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/publications/";
               },
-            },{id: "post-a-post-on-the-lab-39-s-summer-2025-updates",
-        
-          title: "a post on the lab&#39;s summer 2025 updates",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/summer-2025-updates/";
-          
-        },
-      },{id: "post-a-post-on-the-lab-39-s-spring-2025-updates",
+            },{id: "post-a-post-on-the-lab-39-s-spring-2025-updates",
         
           title: "a post on the lab&#39;s spring 2025 updates",
         

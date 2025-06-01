@@ -7,4 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-## 
+## 2025
+
+#### CS 299/PHIL...: Ethics of
+Professor 

@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/publications/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-what-leed-lab-has-been-up-to-in-spring-2025",
+        
+          title: "What LEED Lab has been up to in Spring 2025!",
+        
+        description: "blog post with spring 2025 updates",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/spring-2025-updates/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -232,17 +243,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "blog post with spring 2025 updates",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/spring-2025-updates/";
           
         },
       },{id: "post-a-post-with-custom-blockquotes",

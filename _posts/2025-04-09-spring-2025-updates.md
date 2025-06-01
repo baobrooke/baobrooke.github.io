@@ -1,7 +1,7 @@
 ---
 layout: post
-title: a post with table of contents on a sidebar
-date: 2023-05-25 12:00:00-0400
+title: What LEED Lab has been up to in Spring 2025!
+date: 2025-04-09 12:00:00-0400
 description: blog post with spring 2025 updates
 tags: updates spring25 wellesleyfresh
 categories: real-posts

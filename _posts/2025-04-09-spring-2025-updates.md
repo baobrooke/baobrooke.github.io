@@ -9,6 +9,7 @@ giscus_comments: true
 related_posts: false
 toc:
   sidebar: left
+featured: true
 ---
 
 In spring 2025, we started ... main projects

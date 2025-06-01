@@ -2,7 +2,7 @@
 layout: resources
 permalink: /resources/
 title: Resources
-description: Curated recommendations for learning and inspiration
+description: Resources to check out if you are interested in the LEED Lab's work.
 nav: true
 nav_order: 5
 

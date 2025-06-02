@@ -2,6 +2,7 @@
 layout: resources
 permalink: /resources/
 title: Resources
+heading: Resources
 description: Resources to check out if you are interested in the LEED Lab's work.
 nav: true
 nav_order: 5
@@ -16,10 +17,6 @@ readings:
     description:
     isbn: 9780262379748
     cover: /assets/img/book_covers/tech_agnostic.jpeg
-  - title: The Godfather
-    url: https://www.goodreads.com/book/show/22034.The_Godfather
-    description: The classic mafia novel
-    cover: /assets/img/book_covers/the_godfather.jpg
 
 movies:
   - title: Coded Bias

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-CS 299 Class to present at Ruhlman 4/26/2025.
+CS 299 class to present at Ruhlman 4/26/2025.

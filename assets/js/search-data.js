@@ -79,11 +79,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-cs-299-class-to-present-at-ruhlman-4-26-2025",
-          title: 'CS 299 Class to present at Ruhlman 4/26/2025.',
+            },},{id: "news-cs-299-class-to-present-at-ruhlman-4-26-2025",
+          title: 'CS 299 class to present at Ruhlman 4/26/2025.',
           description: "",
           section: "News",},{id: "projects-wellesley-fresh-er",
           title: 'Wellesley Fresh-er',

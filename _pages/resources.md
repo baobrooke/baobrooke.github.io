@@ -15,6 +15,7 @@ readings:
     url: https://doi.org/10.7551/mitpress/14731.001.0001
     description:
     isbn: 9780262379748
+    cover: /assets/img/book_covers/tech_agnostic.jpeg
   - title: The Godfather
     url: https://www.goodreads.com/book/show/22034.The_Godfather
     description: The classic mafia novel
